@@ -1,9 +1,25 @@
 function setup() {
-  createCanvas(900, 900);
+  createCanvas(600, 400);
 }
 
 function draw() {
-  background(220, 206, 400);
-  circle(90,90,90);
-  rect(300, 50 , 25, 75, 20);
+  // Sky blue background
+  background(135, 206, 235);
+  // Sun in top right
+  fill("yellow");
+
+  stroke("orange"); // Orange outline
+
+  strokeWeight(20); //large outling
+
+  circle(550, 50, 100);
+  //grass on bottom half
+
+  stroke(0); //black outline
+
+  strokeWeight(1); //outline thickness
+
+  fill("green");
+
+  rect(0, 200, 600, 200);
 }

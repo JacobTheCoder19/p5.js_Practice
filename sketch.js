@@ -1,4 +1,5 @@
 function setup() {
+  createCanvas(1000, 1000);
   // Hide the cursor.
   noCursor();
 }

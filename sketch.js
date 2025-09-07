@@ -10,7 +10,7 @@ function draw() {
   background('green');
   c.setAlpha(128);
   fill(c);
-  circle(mouseX, mouseY, 10);
+  circle(mouseX, mouseY, 100);
 
   describe('A white circle on a gray background. The circle follows the mouse as it moves. The cursor is hidden.');
 }
